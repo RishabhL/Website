@@ -6,6 +6,7 @@
 body{
     background: linear-gradient(to right bottom, #051937, #001d30, #001e20, #001c11, #131805);
     background-size: 100vw 100vh;
+    animation-name: gardient;
 }
 @keyframes gradient {
 	0% {
@@ -15,7 +16,7 @@ body{
 		background-position: 100vw 50vh;
 	}
 	100% {
-		background-position: 0vw 50%;
+		background-position: 0vw 50vh;
 	}
 }
 ul{

@@ -4,18 +4,22 @@
     font-family: Century Gothic;
 }
 body{
-    background: linear-gradient(to right bottom, #051937, #001d30, #001e20, #001c11, #131805);
-    background-size: 100vw 100vh;
+    background: linear-gradient(to right bottom,  #000428, #004e92);
+    background-size: 200vw 200vh;
+    animation-name: gradient;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
 }
 @keyframes gradient {
 	0% {
-		background-position: 0vw 50vh;
+		background-position: 0% 50%;
 	}
 	50% {
-		background-position: 100vw 50vh;
+		background-position: 100% 50%;
 	}
 	100% {
-		background-position: 0vw 50%;
+		background-position: 0% 50%;
 	}
 }
 ul{

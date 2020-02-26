@@ -4,7 +4,7 @@
     font-family: Century Gothic;
 }
 body{
-    background: linear-gradient(to right bottom,  #000428, #004e92);
+    background: linear-gradient(to right bottom,  #2e12a2, #000000);
     background-size: 200vw 200vh;
     animation-name: gradient;
     animation-duration: 8s;

@@ -15,7 +15,6 @@ body{
     animation-duration: 8s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
-    
 }
 @keyframes gradient {
 	0% {
@@ -79,4 +78,12 @@ section h1{
 section h2{
     font-size: 1.5rem;
     color: cornflowerblue;
+}
+#scroll {
+    background: linear-gradient(to right bottom,  #60f808, #a30505);
+    background-size: 210vw 210vh;
+    animation-name: gradient;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
 }
